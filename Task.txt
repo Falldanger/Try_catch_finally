@@ -1,0 +1,5 @@
+Try-catch-finally operator
+
+Create a class Valid in which you implement the static validEmail method ($ email). The validEmail () method should throw out the following exceptions: empty string - exception with the message “E-mail not specified”, incorrect e-mail (did not pass the test in a regular expression) —exception “E-mail is not valid”, the length of the e-mail is longer 255 characters - the exception is "Too long e-mail". If all is well, the method returns true.
+Call the validEmail () method, passing it various parameters, and also catch and throw exceptions.
+Note: Please note that in the validEmail () method, only exceptions are thrown, and processing (that is, try-catch block) should be where this method is called.
